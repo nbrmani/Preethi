@@ -1,6 +1,6 @@
 public with sharing class HelloWorld {
-    public HelloWorld() {
-        System.debug('Hello, Jesus  World..!vanakkam');
-
+    
+public static string helloMessage() {
+    return('You say "Goodbye," I say "Hello"');
     }
 }
